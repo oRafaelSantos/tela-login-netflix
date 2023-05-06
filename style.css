@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.233270675e0b08fdca2ffa8eb464bbf1?rik=CY1UuAnVl3MOdg&pid=ImgRaw&r=0');
+}
+
+header h1{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 50px;
+}
+
+.login-form-div{
+    border: 1px solid #000000bf;
+    background-color: #000000bf;
+    width: 32%;
+    height: 70vh;
+    border-radius: 5px;
+   
+}
+
+.input-form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.input-form-div input{
+    padding: 19px;
+    width: 78%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+::placeholder{
+    color: #8c8c8c;
+    font-size: 15px;
+}
+
+.button-submit-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+button{
+    padding: 15px;
+    width: 78%;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.remenber-and-help-link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    color: #b3b3b3;
+}
+
+.help-me-link-div a{
+    text-decoration: none;
+    color:#b3b3b3;
+}
+
+.login-signup{
+    text-align: center;
+    color: #b3b3b3;
+    margin-top: 55px;
+}
+
+.login-signup a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.span-signup{
+    margin: 15px;
+    color: #b3b3b3;
+}
